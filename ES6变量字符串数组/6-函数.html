@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 函数</title>
+</head>
+<body>
+
+</body>
+<script>
+    //ES6 函数的新特性
+    function fn ({name = 'lisi',age =11}) {
+        console.log(name);
+        console.log(age);
+    }
+    //使用了解构赋值
+    fn({name:'zhangsan',age:20});// zhangsan 20
+    fn({});//必须要传递一个对象
+
+    //ES6 箭头函数
+    /*
+    *ES6 箭头函数
+    * 1.this指向
+    *
+    * */
+    let obj = {
+        fn:function () {
+            setTimeout(function () {
+                console.log(this,'ES5普通函数');
+            },3000)
+    },
+        fn1:function () {
+            // 箭头函数指向的是定义时所在对象
+            setTimeout(() => {
+                console.log(this,'箭头函数');
+            },3000)
+        }
+    }
+    obj.fn();//this 代表函数调用时赋值   window
+    obj.fn1();//
+</script>
+</html>

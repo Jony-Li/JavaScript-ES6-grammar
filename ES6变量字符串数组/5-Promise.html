@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 Promise</title>
+</head>
+<body>
+</body>
+<script>
+    //Promise 状态： 等待 成功 失败
+    new Promise((resolve,reject) =>{
+        setTimeout(function () {
+            //resolve(2);
+            reject(3);
+        },3000);
+
+    }).then((result) => {
+        console.log(result);
+    }/*,(result) => {
+        console.log(result);
+    }*/).catch(function () {
+        //console.log(error.target.error);
+        console.log('error!!!')
+    });
+    //then 函数也可以传递两个函数！！！
+</script>
+</html>

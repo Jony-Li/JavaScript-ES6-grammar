@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6数组</title>
+</head>
+<body>
+
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+</ul>
+</body>
+<script>
+    let arr = [1,2,3,4,5];
+    let tmp = arr.filter((value) => {
+        console.log`${value}`;
+        return value > 3;//
+    });
+    console.log`${tmp}`;
+
+    //将类数组转换成正真的数组
+    let aLi = document.querySelectorAll('li');//__proto__:NodeList
+
+    let aLi1 = document.getElementsByTagName('li'); // __proto__:HTMLCollection 类数组
+    console.log(aLi);//类数组
+    //类数组转换成数组的方式
+    //1.Array.prototype.slice.call(aLi);
+    //console.log(Array.prototype.slice.call(aLi))
+
+    //2.Array.from()转换方式
+    //console.log(Array.from(aLi));
+
+    //3.扩展运算符[ ...aLi]
+    console.log([...aLi]);
+
+    aLi.forEach((value) => {
+        console.log(value);
+    });
+
+
+    console.log('-----------------------------');
+    console.log(aLi1);
+    //
+    Array.from(aLi1).forEach((value,index) => {
+        // forEach中的index 自带let属性，是块级作用域
+        value.onclick = function () {
+            alert(index);
+        }
+        console.log(value);
+    })
+
+    //数组的查找
+    let array = [1,2,3,4,5,6];
+
+    //返回数组中满足条件的第一个值
+    let result = array.find(function(val){
+        return val > 3;
+    });
+    console.log(result);
+    //返回数组中满足条件的第一个值得索引
+    let index = array.findIndex(function (val) {
+        return val > 3;
+    });
+    console.log(index);
+</script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6变量</title>
+</head>
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+</body>
+<script>
+
+    //ES6 定义变量的两种方式 let const
+    /*
+    * {} 块级作用域，只要是一个大括号就是一个作用域
+    *
+    * */
+    let str = `aaaaa`;// 模板字符串
+    console.log(str.includes('a'));
+
+    const obj = {
+        name:'zhangsan',
+        age:20
+    };//对象的值可以改变
+    console.log(obj.name);
+    obj.name = 'lisi';
+    console.log(obj.name);
+
+    let aLi = document.querySelectorAll('li');
+    aLi.forEach(function (val,index) {
+        val.onclick = function () {
+            console.log(index);
+        };
+    });
+
+</script>
+</html>
