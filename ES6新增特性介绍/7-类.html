@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 Class</title>
+    <style type="text/css">
+        li{display: none}
+
+    </style>
+</head>
+<body>
+
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+</ul>
+</body>
+</html>
+<script>
+
+    class Fn{
+        constructor(ul){
+            this.oLi = ul.querySelectorAll('li');
+            console.log('1');
+            this.autoPlay(Array.from(this.oLi));
+        }
+        autoPlay(array){
+            console.log('2');
+            array[0].style.display = 'block';
+            let index = 0;
+            setInterval(() =>{
+           /*     array.forEach((value,index) => {
+                    console.log('3');
+                    array[index].style.display = 'block';
+                });*/
+                if(index < array.length){
+                    array[index].style.display = 'block';
+                }
+                index++;
+//                if (index >= array.length) {
+//                    index = 0;
+//                    array.forEach((value,index) => {
+//                        if (index = 0) {
+//                            array[index].style.display = 'display';
+//                        }else {
+//                            array[index].style.display = 'none';
+//                        }
+//                    })
+//                }
+
+            },1000);
+        }
+    }
+    new Fn(document.querySelector('ul'))
+
+
+
+
+
+
+</script>

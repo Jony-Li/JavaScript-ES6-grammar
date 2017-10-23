@@ -15,7 +15,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="1-变量.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/1-变量.html">
+        <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/1-变量.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
               <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
@@ -25,7 +25,7 @@
         </entry>
       </file>
       <file leaf-file-name="6-函数.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/6-函数.html">
+        <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/6-函数.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="568">
               <caret line="80" column="25" lean-forward="true" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
@@ -37,25 +37,25 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="243">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="7-类.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/7-类.html">
+        <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/7-类.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="82">
+              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="4-对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/4-对象.html">
+        <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/4-对象.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-215">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -65,7 +65,7 @@
         </entry>
       </file>
       <file leaf-file-name="3-数组.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/3-数组.html">
+        <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/3-数组.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="541">
               <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="14" />
@@ -92,8 +92,8 @@
       <list>
         <option value="$PROJECT_DIR$/ES6变量字符串数组/1-变量.html" />
         <option value="$PROJECT_DIR$/ES6变量字符串数组/6-函数.html" />
-        <option value="$PROJECT_DIR$/ES6变量字符串数组/7-类.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ES6变量字符串数组/7-类.html" />
       </list>
     </option>
   </component>
@@ -142,7 +142,7 @@
             <path>
               <item name="JavaScript-ES6-grammar" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript-ES6-grammar" type="462c0819:PsiDirectoryNode" />
-              <item name="ES6变量字符串数组" type="462c0819:PsiDirectoryNode" />
+              <item name="ES6新增特性介绍" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,12 +183,12 @@
       <option name="presentableId" value="Default" />
       <updated>1508662779458</updated>
       <workItem from="1508662780664" duration="776000" />
-      <workItem from="1508762337310" duration="4249000" />
+      <workItem from="1508762337310" duration="6671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5025000" />
+    <option name="totallyTimeSpent" value="7447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -226,7 +226,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/1-变量.html">
+    <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/1-变量.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -234,7 +234,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/1-变量.html">
+    <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/1-变量.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
@@ -242,7 +242,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/4-对象.html">
+    <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/4-对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-215">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -250,7 +250,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/3-数组.html">
+    <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/3-数组.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="14" />
@@ -258,7 +258,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/6-函数.html">
+    <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/6-函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="80" column="25" lean-forward="true" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
@@ -266,18 +266,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6变量字符串数组/7-类.html">
+    <entry file="file://$PROJECT_DIR$/ES6新增特性介绍/7-类.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="82">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
