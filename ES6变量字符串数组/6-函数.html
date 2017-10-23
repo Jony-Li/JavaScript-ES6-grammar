@@ -6,6 +6,15 @@
 </head>
 <body>
 
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+</ul>
 </body>
 <script>
     //ES6 函数的新特性
@@ -21,7 +30,8 @@
     /*
     *ES6 箭头函数
     * 1.this指向
-    *
+    * 2.不能使用new创建对象
+    * 3.箭头函数传参数
     * */
     let obj = {
         fn:function () {
@@ -31,12 +41,55 @@
     },
         fn1:function () {
             // 箭头函数指向的是定义时所在对象
+            // 在函数fn1定义，fn1所在对象为obj
             setTimeout(() => {
                 console.log(this,'箭头函数');
             },3000)
         }
     }
-    obj.fn();//this 代表函数调用时赋值   window
-    obj.fn1();//
+    //obj.fn();//this 代表函数调用时赋值   window
+    //obj.fn1();//
+    
+    //举例说明箭头函数的优势 -- 采用面向对象的方式进行举例
+    function fn1() {
+        this.oLi = document.querySelectorAll('li');
+    }
+    fn1.prototype.click = function () {
+        console.log(this.oLi);
+/*        Array.from(this.oLi).forEach(function(value,index){
+            value.onclick =  () => {
+                console.log(this.oLi);//undefined
+            }
+        });*/
+       //箭头函数没有作用域的显示——直接{}上一级作用域
+        Array.from(this.oLi).forEach((value,index) => {
+            value.onclick = () => {
+                console.log(this.oLi);
+            }
+        });
+    }
+    let f = new fn1();
+    f.click();
+
+    // 不能使用new
+    let f1 = () => {
+    };
+    //new f1();//Uncaught TypeError: f1 is not a constructor
+
+    //一个参数的时候可以省略括号
+    let f2 = num => {
+        console.log(num);
+    }
+    f2(3);
+    //更简便的写法 省略大括号后直接自带return功能
+    let f3 = num => console.log(num);
+    f3(4);
+
+
+
+
+
+
+
 </script>
 </html>
