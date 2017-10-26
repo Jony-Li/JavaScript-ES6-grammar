@@ -5,7 +5,6 @@
     <title>ES6 Class</title>
     <style type="text/css">
         li{display: none}
-
     </style>
 </head>
 <body>
@@ -52,15 +51,65 @@
 //                        }
 //                    })
 //                }
-
             },1000);
         }
     }
     new Fn(document.querySelector('ul'))
 
+    /***********************************************************/
+    //传统方式实现JavaScript继承 使用原型 prototype
 
+    function fn() {
+        //TODO 写逻辑
+    }
+    fn.prototype.method1 = function (string) {
+        //TODO
+        console.log(string);
+    }
+    fn.prototype.method2 = function (string) {
+        //TODO
+        console.log(string);
+    }
+    let fn_instance = new fn();
+    fn_instance.method1(`fn_instance`);
 
+    function fn_extends() {
+        //TODO
+        this.__proto__ = fn.prototype;
+    }
+    let fn_extends_instance = new fn_extends();
+    fn_extends_instance.method1(`fn_extends_instance`);
+    fn_extends_instance.method2(`fn_extends_instance method2`);
 
+    /***********************************************************/
+    //ES6类继承  extends  Java & JavaScript 傻傻分不清楚
+    class Animal{
+        constructor(content){
+            this.content = content;
+        }
+        bark(){
+            console.log(`动物叫声：${this.content} `);
+        }
+    }
+    let animal = new Animal('汪汪');
+    animal.bark();
+    //使用继承方式
+    class Cat extends Animal{
+        constructor(content){
+            super();//必须调用
+            this.content = content;
+        }
+        //支持静态方法，和Java类似，直接调用
+        static skill(){
+            console.log(`猫抓老鼠……`);
+        }
+        //重写父类方法
+        bark(){
+            console.log(`猫叫：${this.content} `);
+        }
+    }
+    let cat = new Cat('喵喵');
+    cat.bark();
 
-
+    Cat.skill();//静态方法直接调用
 </script>
